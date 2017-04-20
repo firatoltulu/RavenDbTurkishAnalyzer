@@ -4,7 +4,7 @@
 
 
 I was looking for a turkish analyzer for RavenDB but couldn't find any except https://github.com/tugberkugurlu/LuceneAnalyzers 
-this analyzer is basically just composed of the already existing KeywordAnalyzer and TurkishAsciiFolding in Lucene.Net
+. This analyzer is basically just composed of the already existing KeywordAnalyzer and TurkishAsciiFolding in Lucene.Net
 
 
 
