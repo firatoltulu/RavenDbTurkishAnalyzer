@@ -1,0 +1,9 @@
+E:\Projects\firatoltulu.github.com\RavenDbTurkishAnalyzer\src\TurkishAnalyzer\bin\Debug\TurkishAnalyzer.dll
+E:\Projects\firatoltulu.github.com\RavenDbTurkishAnalyzer\src\TurkishAnalyzer\bin\Debug\TurkishAnalyzer.pdb
+E:\Projects\firatoltulu.github.com\RavenDbTurkishAnalyzer\src\TurkishAnalyzer\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Projects\firatoltulu.github.com\RavenDbTurkishAnalyzer\src\TurkishAnalyzer\bin\Debug\Lucene.Net.dll
+E:\Projects\firatoltulu.github.com\RavenDbTurkishAnalyzer\src\TurkishAnalyzer\bin\Debug\Lucene.Net.pdb
+E:\Projects\firatoltulu.github.com\RavenDbTurkishAnalyzer\src\TurkishAnalyzer\bin\Debug\Lucene.Net.xml
+E:\Projects\firatoltulu.github.com\RavenDbTurkishAnalyzer\src\TurkishAnalyzer\obj\Debug\TurkishAnalyzer.csprojResolveAssemblyReference.cache
+E:\Projects\firatoltulu.github.com\RavenDbTurkishAnalyzer\src\TurkishAnalyzer\obj\Debug\TurkishAnalyzer.dll
+E:\Projects\firatoltulu.github.com\RavenDbTurkishAnalyzer\src\TurkishAnalyzer\obj\Debug\TurkishAnalyzer.pdb
