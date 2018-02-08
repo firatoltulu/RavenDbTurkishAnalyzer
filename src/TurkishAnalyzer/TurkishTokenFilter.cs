@@ -56,7 +56,7 @@ namespace TurkishAnalyzer
                 char c = input[pos];
                 if (c < '\u0080')
                 {
-                    output[outputPos++] = c;
+                    output[outputPos++] = System.Char.ToLower(c, new System.Globalization.CultureInfo("tr-TR"));
                 }
                 else
                 {
@@ -64,7 +64,7 @@ namespace TurkishAnalyzer
                     {
                         case '\u0049':
                         case '\u0130':
-                            output[outputPos++] = 'I';
+                            output[outputPos++] = 'ı';
                             break;
 
                         case '\u0069':
@@ -73,7 +73,7 @@ namespace TurkishAnalyzer
                             break;
 
                         default:
-                            output[outputPos++] = c;
+                            output[outputPos++] = System.Char.ToLower(c, new System.Globalization.CultureInfo("tr-TR"));
                             break;
                     }
                 }

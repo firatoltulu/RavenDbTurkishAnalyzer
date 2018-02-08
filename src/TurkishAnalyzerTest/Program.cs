@@ -32,8 +32,8 @@ namespace TurkishAnalyzerTest
                 ses.Store(new User { Name = "ALİ", Role = "Administrator" });
 
                 ses.SaveChanges();
-                var luceneUser1 = ses.Advanced.LuceneQuery<User>().Where("Name: fırat").FirstOrDefault();
-                var user1 = ses.Query<User>().Where(usr => usr.Name == "fırat").FirstOrDefault();
+                var luceneUser1 = ses.Advanced.LuceneQuery<User>("UserIndex").Where("Name: FIRAT").FirstOrDefault();
+                var user1 = ses.Query<User>("UserIndex").Where(usr => usr.Name == "FIRAT").FirstOrDefault();
 
                 if (user1 == null)
                 {
@@ -44,6 +44,8 @@ namespace TurkishAnalyzerTest
                 {
                     throw new ApplicationException("Not Found");
                 }
+
+                
             }
         }
     }

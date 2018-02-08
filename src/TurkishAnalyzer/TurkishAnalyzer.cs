@@ -8,7 +8,7 @@ namespace TurkishAnalyzer
         public override TokenStream TokenStream(string fieldName, TextReader reader)
         {
             var token = new KeywordTokenizer(reader);
-            var turkishFilter = new TurkishAsciiFoldingFilter(token);
+            var turkishFilter = new LowerCaseFilter(new TurkishAsciiFoldingFilter(token));
             return turkishFilter;
         }
     }

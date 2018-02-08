@@ -11,5 +11,7 @@ namespace TurkishAnalyzerTest.Domain
         public string Name { get; set; }
 
         public string Role { get; set; }
+
+        public int Total { get; set; }
     }
 }
